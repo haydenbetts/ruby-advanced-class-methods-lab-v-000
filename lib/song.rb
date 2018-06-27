@@ -67,7 +67,7 @@ class Song
   end
 
   def self.filename_parser(filename)
-    
+    one, two = filename.match(//)
   end
 
   def self.destroy_all
