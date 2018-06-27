@@ -52,7 +52,8 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    artist, song = self.filename_parser(filename)
+    artist, song_title = self.filename_parser(filename)
+    song = self.new
 
 
   end
@@ -67,7 +68,6 @@ class Song
 
   def self.filename_parser(filename)
     return filename.match(/(^\w+) - (.+).mp3/).captures
-    return artist, song
   end
 
   def self.destroy_all
