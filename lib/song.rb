@@ -54,9 +54,9 @@ class Song
   def self.new_from_filename(filename)
     artist, song_title = self.filename_parser(filename)
     song = self.new
-    song.
-
-
+    song.artist_name = artist
+    song.name = song_title
+    song
   end
 
   def self.create_from_filename(filename)
