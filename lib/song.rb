@@ -66,7 +66,7 @@ class Song
   end
 
   def self.filename_parser(filename)
-    artist, song = filename.match(/(^\w+) - (.+).mp3/).captures
+    return filename.match(/(^\w+) - (.+).mp3/).captures
     return artist, song
   end
 
