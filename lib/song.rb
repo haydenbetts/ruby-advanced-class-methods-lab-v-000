@@ -54,6 +54,7 @@ class Song
   def self.new_from_filename(filename)
     artist, song_title = self.filename_parser(filename)
     song = self.new
+    song.
 
 
   end
