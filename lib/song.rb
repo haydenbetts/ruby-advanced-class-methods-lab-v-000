@@ -68,6 +68,7 @@ class Song
 
   def self.filename_parser(filename)
     one, two = filename.match(/(^\w+) - (.+).mp3/).captures
+    binding.pry
   end
 
   def self.destroy_all
