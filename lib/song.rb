@@ -8,6 +8,10 @@ class Song
     @@all
   end
 
+  def self.all=(value)
+    @@all = value
+  end
+
   def save
     self.class.all << self
   end
