@@ -52,10 +52,8 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    self.filename_parser(filename)
-    # accept  "Taylor Swift - Blank Space.mp3"
-    # assign name and artist_name attributes
-    # return instance of song
+    artist, song = self.filename_parser(filename)
+
 
   end
 
