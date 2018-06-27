@@ -53,12 +53,15 @@ class Song
 
   def self.new_from_filename(filename)
     # accept  "Taylor Swift - Blank Space.mp3"
+    # assign name and artist_name attributes
     # return instance of song
-    
+
   end
 
   def self.create_from_filename(filename)
     # accept  "Taylor Swift - Blank Space.mp3"
+    # assign name and artist_name attributes
+    # add object to .all
     # return instance of song
     
   end
