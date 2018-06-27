@@ -63,6 +63,10 @@ class Song
     # assign name and artist_name attributes
     # add object to .all
     # return instance of song
+
+  end
+
+  def self.filename_parser(filename)
     
   end
 
